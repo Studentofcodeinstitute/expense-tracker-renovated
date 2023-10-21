@@ -39,3 +39,28 @@ header {
     width: 20%;
     margin: 1%;
 }
+
+button {
+    margin: 1%;
+    color: blue;
+}
+
+#table {
+    margin-top: 5%;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+table {
+    width: 700px;
+    color: rgb(248, 250, 253);
+    text-align: center;
+    background: black;
+}
+
+table,
+th {
+    border: 1px solid rgb(58, 47, 27);
+}
