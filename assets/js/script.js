@@ -11,3 +11,9 @@ function getCurrentLocalStorageValue() {
 
     return currentData;
 }
+
+function addDataToLocalStorage(newRow) {
+    const currentData = getCurrentLocalStorageValue();
+    const newData = [...currentData, newRow];
+    localStorage.setItem("data", JSON.stringify(newData));
+}
