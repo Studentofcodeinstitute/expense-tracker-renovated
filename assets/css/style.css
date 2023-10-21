@@ -93,3 +93,27 @@ table,
 th {
     border: 1px solid rgb(58, 47, 27);
 }
+
+@media (max-width: 500px) {
+
+    table {
+        width: 300px;
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 350px) {
+
+    table {
+        width: 250px;
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 250px) {
+
+    table {
+        width: 150px;
+        font-size: 70%;
+    }
+}
