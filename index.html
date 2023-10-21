@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/Logo1.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="images/x-icon" href="assets/images/Logo1.png" />
     <title>Expense Tracker</title>
-
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-        <h1>Expense Tracker</h1>
-        <p class="item">Add A New Item:</p>
+      <h1>Expense Tracker</h1>
+      <p class="item">Add A New Item:</p>
     </header>
 
     <div>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-    
-        <label for="date">Date</label>
-        <input type="date" id="date" name="date">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" />
     </div>
     <div>
-        <label for="type">Type</label>
-        <select name="type" id="type">
-            <option value="cash">Cash</option>
-            <option value="credit">Credit-Card</option>
-        </select>
-    
-        <label for="amount">Amount</label>
-        <input type="text" id="amount" name="amount">
+      <label for="type">Type</label>
+      <select name="type" id="type">
+        <option value="cash">Cash</option>
+        <option value="credit">Credit-Card</option>
+      </select>
+
+      <label for="amount">Amount</label>
+      <input type="text" id="amount" name="amount" />
     </div>
     <button onclick="tableDetails(event)">Add Expense</button>
     <button onClick="tableReset()">Delete all</button>
 
     <div>
-        <div id="table">
-            <table id="expense-table">
-                <tr>
-                    <th>Name</th>
-                    <th>Date</th>
-                    <th>Type</th>
-                    <th>Amount</th>
-                    <th class="button">Action</th>
-                </tr>
-            </table>
-        </div>
+      <div id="table">
+        <table id="expense-table">
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th class="button">Action</th>
+          </tr>
+        </table>
+      </div>
     </div>
     <script src="assets/js/script.js"></script>
-    
-</body>
+  </body>
 </html>
