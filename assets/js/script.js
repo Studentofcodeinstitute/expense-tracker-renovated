@@ -1,4 +1,5 @@
 let row = 1;
+resetForm();
 const deleteHTML = `<button onclick="onClick(this);">Delete</button>`;
 
 function getCurrentLocalStorageValue() {
@@ -49,7 +50,7 @@ function tableDetails(event) {
     cell5.innerHTML = deleteHTML;
 
     addDataToLocalStorage({ name, date, type, amount });
-    
+    resetForm();
 }
 
 function resetForm() {
@@ -57,4 +58,24 @@ function resetForm() {
     document.getElementById('date').value = "";
     document.getElementById('type').value = "";
     document.getElementById('amount').value = "";
+}
+
+function onClick(td) {
+
+    if (confirm('Are You Sure')) {
+        row = td.parentElement.parentElement;
+        document.getElementById('expense-table').deleteRow(row.rowIndex);
+        resetForm();
+
+        let localStorageIndex = row.rowIndex - 1;
+        let items = JSON.parse(localStorage.getItem("data"));
+
+        items.splice(localStorageIndex, 1);
+
+        localStorage.setItem("data", JSON.stringify(items));
+
+
+    }
+
+    return;
 }
