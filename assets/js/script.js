@@ -28,7 +28,7 @@ function tableDetails(event) {
 
 
     if (!name || !date || !type || !amount) {
-        alert(`Unknown game type`);
+        alert(`Please fill up all empty boxes`);
         return;
     }
 
@@ -50,4 +50,11 @@ function tableDetails(event) {
 
     addDataToLocalStorage({ name, date, type, amount });
     
+}
+
+function resetForm() {
+    document.getElementById('name').value = "";
+    document.getElementById('date').value = "";
+    document.getElementById('type').value = "";
+    document.getElementById('amount').value = "";
 }
