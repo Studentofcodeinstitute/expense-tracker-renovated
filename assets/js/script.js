@@ -79,3 +79,14 @@ function onClick(td) {
 
     return;
 }
+
+function tableReset() {
+    if (confirm('Are you sure to delete all')) {
+        const tableElement = document.getElementById('expense-table');
+        localStorage.setItem("data", "[]");
+        const tableRows = Array.from(tableElement.children[0].children);
+        const [, ...childRows] = tableRows;
+
+        childRows.forEach((eachRow) => eachRow.remove());
+    }
+}
