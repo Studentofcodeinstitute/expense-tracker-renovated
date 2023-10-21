@@ -90,3 +90,24 @@ function tableReset() {
         childRows.forEach((eachRow) => eachRow.remove());
     }
 }
+
+function initialiseTable() {
+    const tableData = getCurrentLocalStorageValue();
+    const tableElement = document.getElementById('expense-table');
+    tableData.forEach((eachRow) => {
+        let rows = tableElement.insertRow(-1);
+        let cell1 = rows.insertCell(0);
+        let cell2 = rows.insertCell(1);
+        let cell3 = rows.insertCell(2);
+        let cell4 = rows.insertCell(3);
+        let cell5 = rows.insertCell(4);
+
+        cell1.textContent = eachRow.name;
+        cell2.textContent = eachRow.date;
+        cell3.textContent = eachRow.type;
+        cell4.textContent = eachRow.amount;
+        cell5.innerHTML = deleteHTML;
+    });
+
+}
+document.onload = initialiseTable();
