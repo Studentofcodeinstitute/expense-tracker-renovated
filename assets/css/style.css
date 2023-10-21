@@ -1,3 +1,17 @@
 body {
-    background-color: black;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+
+
+header {
+    text-align: center;
+
+}
+
+.item {
+    color: rgb(158, 7, 246);
 }
