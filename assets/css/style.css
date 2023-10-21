@@ -60,6 +60,11 @@ table {
     background: black;
 }
 
+table,
+th {
+    border: 1px solid rgb(58, 47, 27);
+}
+
 @media (max-width: 750px) {
 
     table {
@@ -87,11 +92,6 @@ table {
     #amount {
         margin: 3%;
     }
-}
-
-table,
-th {
-    border: 1px solid rgb(58, 47, 27);
 }
 
 @media (max-width: 500px) {
