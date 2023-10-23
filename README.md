@@ -44,13 +44,13 @@ It's assembled by three part;
 
 ## Testing 
 
-First test consists adding data value into boxes and pre ss "Add expense". Has been tried three different time with different type of data value.
+First test consists adding data value into boxes and press "Add expense". Has been tried three different time with different type of data value.
 
-![alt text](assets/images/fullscreen.png)
+![alt text](assets/images/ext.test1.png)
 
-Second test consists adding data value into three boxes but Amount box has been empty and when "Add expense" button has been pressed; represent message bar "Please fill up all empty boxes" and give a chance to write again.
+Second test consists pressing "Add expense" button without any values written on boxes; represent message bar "Please fill up all empty boxes" and give a chance to write again.
 
-![alt text](assets/images/test2.png)
+![alt text](assets/images/ext.fillup.png)
 
 Third test consists to press "Delete all" and "Delete" button and there are two different message bar;
 
