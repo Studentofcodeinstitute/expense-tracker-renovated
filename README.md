@@ -1,39 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Expense Tracker
 
-Welcome,
+The webpage restrain a page, constructed by HTML, CSS and JavaScript.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website is made for people who live on a fixed income, and they find that towards the end of the month they don't have sufficient money to meet their needs. This software or application that helps to keep an accurate record of their money inflow and outflow. Designed to keep a track of Income-Expense of a person on a day-to-day basis.Expense tracker is useful in knowing the average of money spending each day. Incase of spending more then normal it will be easy to track it and use it wisely.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![alt text](assets/images/)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+The website is made for store data. In this case, will store all expenses it will be added into table. It has been used LocalStorage to store data. There is a table to represent the data in order.
+The software has main title named "Expense Tracker" and a message that invite to add expenses. There are four input boxes that has to be fill up, before the button "Add expense" is pressed, if not it will show the message "Please fill up all empty boxes". Delete all button is to delete all storage expenses row, it will show a message "Are you sure to delete all" before it. In the amount box is acceptable only number and currency like $, £, €, Kr.
+At the bottom there is a table to represent all input data. Table has five header named: Name, Date, Type, Amount and action. Each input data will be replaced underneath each table header but action has a choiceble "Delete" button thats allow to delete single row.
