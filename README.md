@@ -102,13 +102,11 @@ The live link can be found here -  <https://studentofcodeinstitute.github.io/exp
 
 ## Credits
 
-The main structure and design has been taken from youtube. Javascript main code idea has been taken from tutorial video. i divide them into two section content and media.
+The main structure and design has been taken from youtube. Javascript main code idea has been taken from tutorial video. Has been divided in two section content and media.
 
 ### Content
 
 The main javascript coding structure idea has been taken from: <https://github.com/CodAffection/Pure-JavaScript-CRUD-Operations-with-Html/blob/master/script.js>
-
-
 
 ### Media
 
