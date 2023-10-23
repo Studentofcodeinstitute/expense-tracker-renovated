@@ -4,7 +4,7 @@ The webpage restrain a page, constructed by HTML, CSS and JavaScript.
 
 The website is made for people who live on a fixed income, and they find that towards the end of the month they don't have sufficient money to meet their needs. This software or application that helps to keep an accurate record of their money inflow and outflow. Designed to keep a track of Income-Expense of a person on a day-to-day basis.Expense tracker is useful in knowing the average of money spending each day. Incase of spending more then normal it will be easy to track it and use it wisely.
 
-![alt text](assets/images/)
+![alt text](assets/images/overview-ext.png)
 
 ## Features
 
@@ -25,7 +25,7 @@ It's assembled by two parts;
       3. Type. there are two options; Cash or Credit-card.
       4. Amount spended in Euro.
 
-![alt text](assets/images/first-section1.png)
+![alt text](assets/images/ext.section1.png)
 
 #### Second section of  webpage
 
@@ -40,7 +40,7 @@ It's assembled by three part;
        4. Amount.
        5. Delete button. It is for delete a row data, needs permission before action.
 
-![alt text](assets/images/section2.png)
+![alt text](assets/images/ext.section2.png)
 
 ## Testing 
 
