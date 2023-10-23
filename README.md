@@ -52,7 +52,7 @@ Second test consists adding data value into three boxes but Amount box has been 
 
 ![alt text](assets/images/test2.png)
 
-Thirdtest consists to press "Delete all" and "Delete" button and there are two different message bar;
+Third test consists to press "Delete all" and "Delete" button and there are two different message bar;
 
        1. "Are you sure to delete all" for the "Delete all" button.
        2. "Are you sure" to delete a single row.
@@ -61,6 +61,10 @@ Thirdtest consists to press "Delete all" and "Delete" button and there are two d
 ![alt text](assets/images/test3.png)
 
 ![alt text](assets/images/test3-2.png)
+
+Fourth test consists to open the software on mobile phone. the software has been checked as well as on mobole phones.
+
+![alt text](assets/images/mobile-device.png)
 
 ### Validator Testing
 
