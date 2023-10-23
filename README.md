@@ -58,9 +58,9 @@ Third test consists to press "Delete all" and "Delete" button and there are two 
        2. "Are you sure" to delete a single row.
 
 
-![alt text](assets/images/test3.png)
+![alt text](assets/images/ext.deleteall.png)
 
-![alt text](assets/images/test3-2.png)
+![alt text](assets/images/ext.deletesingle.png)
 
 Fourth test consists to open the software on mobile phone. the software has been checked as well as on mobole phones.
 
