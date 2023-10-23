@@ -62,9 +62,13 @@ Third test consists to press "Delete all" and "Delete" button and there are two 
 
 ![alt text](assets/images/ext.deletesingle.png)
 
-Fourth test consists to open the software on mobile phone. the software has been checked as well as on mobole phones.
+Fourth test consists to open the software on mobile phone. the software has been checked as well as on mobile phones.
 
-![alt text](assets/images/mobile-device.png)
+![alt text](assets/images/ext.mobiledevice.png)
+
+Fifth test consists to fill up amount box with different letters, it is showing a message bar "Required number into Amount box"
+
+![alt text](assets/images)
 
 ### Validator Testing
 

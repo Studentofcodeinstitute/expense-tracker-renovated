@@ -34,7 +34,7 @@ function tableDetails(event) {
     }
 
     if (isNaN(amount) || isNaN(parseFloat(amount))) {
-        alert(`Please enter a number`);
+        alert(`Rquired number into Amount box`);
         return;
     }
 
