@@ -2,14 +2,15 @@
 
 The webpage restrain a page, constructed by HTML, CSS and JavaScript.
 
-The website is made for people who live on a fixed income, and they find that towards the end of the month they don't have sufficient money to meet their needs. This software or application that helps to keep an accurate record of their money inflow and outflow. Designed to keep a track of Income-Expense of a person on a day-to-day basis.Expense tracker is useful in knowing the average of money spending each day. Incase of spending more then normal it will be easy to track it and use it wisely.
+The website is made for people who live on a fixed income, and they find that towards the end of the month they don't have sufficient money to meet their needs. This software that helps to keep an accurate record of their money inflow and outflow. Designed to keep a track of Income-Expense of a person on a day-to-day basis.Expense tracker is useful in knowing the average of money spending each day. Incase of spending more then normal it will be easy to track it and use it wisely.
 
 ![alt text](assets/images/overview-ext.png)
 
 ## Features
 
 The website is made for store data. In this case, will store all expenses it will be added into table. It has been used LocalStorage to store data. There is a table to represent the data in order.
-The software has main title named "Expense Tracker" and a message that invite to add expenses. There are four input boxes that has to be fill up, before the button "Add expense" is pressed, if not it will show the message "Please fill up all empty boxes". Delete all button is to delete all storage expenses row, it will show a message "Are you sure to delete all" before it. In the amount box is acceptable only number and currency is fixed to €.
+The software has main title named "Expense Tracker" and a message that invite to add expenses. There are four input boxes that has to be fill up, before the button "Add expense" is pressed, if not it will show the message "Please fill up all empty boxes". Delete all button is to delete all storage expenses row, it will show a message "Are you sure to delete all" before it. In the amount box is acceptable only number, there is a message bar "Rquired number into Amount box" and currency is fixed to €.
+
 At the bottom there is a table to represent all input data. Table has five header named: Name, Date, Type, Amount and action. Each input data will be replaced underneath each table header but action has a choiceble "Delete" button thats allow to delete single row.
 
 ### Existing Features
@@ -23,7 +24,7 @@ It's assembled by two parts;
       1. Name.
       2. Date of expenses.
       3. Type. there are two options; Cash or Credit-card.
-      4. Amount spended in Euro.
+      4. Amount spended in Euro. Acceptable only numbers.
 
 ![alt text](assets/images/ext.section1.png)
 
@@ -66,9 +67,9 @@ Fourth test consists to open the software on mobile phone. the software has been
 
 ![alt text](assets/images/ext.mobiledevice.png)
 
-Fifth test consists to fill up amount box with different letters, it is showing a message bar "Required number into Amount box"
+Fifth test consists to fill up amount box with different letters, it is showing a message bar "Required number into Amount box". Accepted only numbers.
 
-![alt text](assets/images)
+![alt text](assets/images/ext.rqnum.png)
 
 ### Validator Testing
 
@@ -86,7 +87,7 @@ Fifth test consists to fill up amount box with different letters, it is showing 
 
 ### Solved Bugs
 
-Find out to delete a single row and replace another new row, after the existing row.
+Find out how to delete a single row and replace another new row, after the existing row.
 
 Find out the proper use of localstorage into javascript.
 
