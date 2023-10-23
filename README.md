@@ -9,7 +9,7 @@ The website is made for people who live on a fixed income, and they find that to
 ## Features
 
 The website is made for store data. In this case, will store all expenses it will be added into table. It has been used LocalStorage to store data. There is a table to represent the data in order.
-The software has main title named "Expense Tracker" and a message that invite to add expenses. There are four input boxes that has to be fill up, before the button "Add expense" is pressed, if not it will show the message "Please fill up all empty boxes". Delete all button is to delete all storage expenses row, it will show a message "Are you sure to delete all" before it. In the amount box is acceptable only number and currency like $, £, €, Kr.
+The software has main title named "Expense Tracker" and a message that invite to add expenses. There are four input boxes that has to be fill up, before the button "Add expense" is pressed, if not it will show the message "Please fill up all empty boxes". Delete all button is to delete all storage expenses row, it will show a message "Are you sure to delete all" before it. In the amount box is acceptable only number and currency is fixed to €.
 At the bottom there is a table to represent all input data. Table has five header named: Name, Date, Type, Amount and action. Each input data will be replaced underneath each table header but action has a choiceble "Delete" button thats allow to delete single row.
 
 ### Existing Features
@@ -19,11 +19,11 @@ At the bottom there is a table to represent all input data. Table has five heade
 It's assembled by two parts;
 
 1. Header, contain a title that satisfies own goal "expense tracker"
-2. There is input options, specified for ectual user;
+2. There are input options, specified for ectual user;
       1. Name.
       2. Date of expenses.
       3. Type. there are two options; Cash or Credit-card.
-      4. Amount spended.
+      4. Amount spended in Euro.
 
 ![alt text](assets/images/first-section1.png)
 
@@ -74,7 +74,7 @@ Fourth test consists to open the software on mobile phone. the software has been
 2. CSS:
    No errors were found when passing through the official (Jigsaw) validator.
 
-3. JSHint JavaScript Validator: No errors but warnings were found when passing through the official (JSHint) validator.
+3. JSHint JavaScript Validator: No errors.
 
 4. Accessibility
 

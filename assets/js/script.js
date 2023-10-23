@@ -33,6 +33,11 @@ function tableDetails(event) {
         return;
     }
 
+    if (isNaN(amount) || isNaN(parseFloat(amount))) {
+        alert(`Please enter a number`);
+        return;
+    }
+
     let tableElement = document.getElementById('expense-table');
 
     let rows = tableElement.insertRow(-1);
@@ -46,7 +51,7 @@ function tableDetails(event) {
     cell1.textContent = name;
     cell2.textContent = date;
     cell3.textContent = type;
-    cell4.textContent = amount;
+    cell4.textContent = '€' + amount;
     cell5.innerHTML = deleteHTML;
 
     addDataToLocalStorage({ name, date, type, amount });
@@ -105,7 +110,7 @@ function initialiseTable() {
         cell1.textContent = eachRow.name;
         cell2.textContent = eachRow.date;
         cell3.textContent = eachRow.type;
-        cell4.textContent = eachRow.amount;
+        cell4.textContent = '€' + eachRow.amount;
         cell5.innerHTML = deleteHTML;
     });
 
