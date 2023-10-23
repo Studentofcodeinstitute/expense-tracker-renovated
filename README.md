@@ -61,3 +61,48 @@ Thirdtest consists to press "Delete all" and "Delete" button and there are two d
 ![alt text](assets/images/test3.png)
 
 ![alt text](assets/images/test3-2.png)
+
+### Validator Testing
+
+1. HTML:
+   No errors were returned when passing through the official W3C validator.
+
+2. CSS:
+   No errors were found when passing through the official (Jigsaw) validator.
+
+3. JSHint JavaScript Validator: No errors but warnings were found when passing through the official (JSHint) validator.
+
+4. Accessibility
+
+![alt text](assets/images/accessibility-et.png)
+
+### Solved Bugs
+
+Find out to delete a single row and replace another new row, after the existing row.
+
+Find out the proper use of localstorage into javascript.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate  the successful deployment.
+
+The live link can be found here -
+
+## Credits
+
+The main structure and design has been taken from youtube. Javascript main code idea has been taken from tutorial video. i divide them into two section content and media.
+
+### Content
+
+The main javascript coding structure idea has been taken from: <https://github.com/CodAffection/Pure-JavaScript-CRUD-Operations-with-Html/blob/master/script.js>
+
+
+
+### Media
+
+The main structure design Idea has taken from a video:
+
+<https://youtu.be/RYE0QQKJI9o>
