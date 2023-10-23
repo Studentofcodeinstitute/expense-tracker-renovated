@@ -44,6 +44,20 @@ It's assembled by three part;
 
 ## Testing 
 
-First test 
+First test consists adding data value into boxes and pre ss "Add expense". Has been tried three different time with different type of data value.
 
 ![alt text](assets/images/fullscreen.png)
+
+Second test consists adding data value into three boxes but Amount box has been empty and when "Add expense" button has been pressed; represent message bar "Please fill up all empty boxes" and give a chance to write again.
+
+![alt text](assets/images/test2.png)
+
+Thirdtest consists to press "Delete all" and "Delete" button and there are two different message bar;
+
+       1. "Are you sure to delete all" for the "Delete all" button.
+       2. "Are you sure" to delete a single row.
+
+
+![alt text](assets/images/test3.png)
+
+![alt text](assets/images/test3-2.png)
